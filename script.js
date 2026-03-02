@@ -465,54 +465,7 @@
     })
   );
 
-  // ══════════════════════════════════════════════════
-  //  15 · CONTACT FORM (sends to /api/contact)
-  // ══════════════════════════════════════════════════
-  const form = document.getElementById('contactForm');
-  const formMsg = document.getElementById('formMsg');
-  if (form) {
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const name = form.elements.name.value.trim();
-      const email = form.elements.email.value.trim();
-      const message = form.elements.message.value.trim();
-      if (!name || !email) {
-        showFormMsg('Bitte fülle Name und E-Mail aus.', 'error');
-        return;
-      }
-      if (!message || message.length < 5) {
-        showFormMsg('Bitte schreibe eine Nachricht (min. 5 Zeichen).', 'error');
-        return;
-      }
-      // Disable button while sending
-      const btn = form.querySelector('button[type="submit"]');
-      if (btn) { btn.disabled = true; btn.textContent = 'Wird gesendet...'; }
-      try {
-        const res = await fetch('/api/contact', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ name, email, message })
-        });
-        const data = await res.json();
-        if (res.ok) {
-          showFormMsg('Danke, ' + name + '! ' + (data.message || 'Wir melden uns bald bei dir.'), 'success');
-          form.reset();
-        } else {
-          showFormMsg(data.message || 'Fehler beim Senden. Bitte versuche es später.', 'error');
-        }
-      } catch (err) {
-        showFormMsg('Verbindungsfehler. Bitte versuche es später.', 'error');
-      } finally {
-        if (btn) { btn.disabled = false; btn.textContent = 'Nachricht senden'; }
-      }
-    });
-  }
-  function showFormMsg(text, type) {
-    if (!formMsg) return;
-    formMsg.textContent = text;
-    formMsg.className = 'form-msg ' + type;
-    setTimeout(() => { formMsg.textContent = ''; formMsg.className = 'form-msg'; }, 5000);
-  }
+
 
   // ══════════════════════════════════════════════════
   //  16 · AUTO-ROTATE TESTIMONIALS (optional carousel)
