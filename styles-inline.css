@@ -780,3 +780,140 @@
   background: #AEEA00 !important;
   box-shadow: 0 0 12px rgba(174,234,0,.45) !important;
 }
+
+/* ══════════════════════════════════════════════
+   Vereine & Clubs Section
+══════════════════════════════════════════════ */
+.clubs {
+  background: linear-gradient(180deg, var(--bg) 0%, rgba(174,234,0,.03) 50%, var(--bg) 100%);
+  border-top: 1px solid rgba(174,234,0,.08);
+  border-bottom: 1px solid rgba(174,234,0,.08);
+}
+
+/* 6-feature grid */
+.clubs__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+@media (max-width: 900px) {
+  .clubs__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 580px) {
+  .clubs__grid { grid-template-columns: 1fr; }
+}
+
+.clubs__feature {
+  background: var(--surface);
+  border: 1px solid var(--outline);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  transition: border-color .2s, box-shadow .2s;
+}
+.clubs__feature:hover {
+  border-color: rgba(174,234,0,.3);
+  box-shadow: 0 4px 24px rgba(174,234,0,.06);
+}
+.clubs__icon {
+  width: 52px; height: 52px;
+  background: rgba(174,234,0,.08);
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 1rem;
+  color: var(--lime);
+  border: 1px solid rgba(174,234,0,.15);
+}
+.clubs__feature h4 {
+  font-size: var(--fs-base);
+  font-weight: 700;
+  margin-bottom: .5rem;
+  color: var(--text1);
+}
+.clubs__feature p {
+  font-size: var(--fs-sm);
+  color: var(--text2);
+  line-height: 1.6;
+}
+
+/* 3 pricing cards horizontal */
+.clubs__cta { text-align: center; }
+.clubs__pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  max-width: 860px;
+  margin: 0 auto 1.5rem;
+}
+@media (max-width: 720px) {
+  .clubs__pricing-cards { grid-template-columns: 1fr; max-width: 380px; }
+}
+
+.clubs__plan {
+  background: var(--surface);
+  border: 1px solid var(--outline);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .6rem;
+  position: relative;
+  transition: border-color .2s, transform .2s;
+}
+.clubs__plan:hover {
+  border-color: rgba(174,234,0,.25);
+  transform: translateY(-3px);
+}
+.clubs__plan--featured {
+  border-color: var(--lime);
+  background: linear-gradient(180deg, rgba(174,234,0,.06) 0%, var(--surface) 60%);
+  box-shadow: 0 0 40px rgba(174,234,0,.1);
+}
+.clubs__plan-badge {
+  position: absolute;
+  top: -.7rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, var(--lime), var(--lime2));
+  color: var(--bg);
+  font-size: .7rem;
+  font-weight: 700;
+  padding: .2rem .9rem;
+  border-radius: 50px;
+  white-space: nowrap;
+}
+.clubs__plan-name {
+  font-size: var(--fs-base);
+  font-weight: 700;
+  color: var(--text1);
+}
+.clubs__plan-price {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--lime);
+  letter-spacing: -.03em;
+  line-height: 1.1;
+}
+.clubs__plan-price span {
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  color: var(--text2);
+}
+.clubs__plan-sub {
+  font-size: var(--fs-xs);
+  color: var(--text2);
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: .5rem;
+}
+.clubs__plan .btn {
+  width: 100%;
+  text-align: center;
+}
+.clubs__note {
+  font-size: var(--fs-xs);
+  color: var(--text2);
+  margin-top: .5rem;
+  opacity: .7;
+}
