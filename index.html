@@ -193,137 +193,239 @@
 
     <div class="phones-carousel">
       <div class="phones-track" id="phonesTrack">
-        <!-- Phone 1: Dashboard -->
+
+        <!-- ── Phone 1: Dashboard ── -->
         <div class="phone-slide">
-          <div class="hero__phone">
-            <div class="hero__phone-screen">
-              <div class="phone-statusbar">
-                <span>9:41</span>
-                <div class="phone-statusbar__icons">
-                  <span class="phone-signal">●●●●○</span>
-                  <span class="phone-wifi">⚡</span>
-                  <span class="phone-battery">87%</span>
+          <div class="iphone17">
+            <div class="iphone17__btn-action"></div>
+            <div class="iphone17__btn-vol-up"></div>
+            <div class="iphone17__btn-vol-down"></div>
+            <div class="iphone17__btn-power"></div>
+            <div class="iphone17__body">
+              <div class="iphone17__screen">
+                <div class="iphone17__island"><div class="iphone17__island-cam"></div></div>
+                <div class="iphone17__statusbar">
+                  <span class="iphone17__time">9:41</span>
+                  <div class="iphone17__status-icons">
+                    <svg width="16" height="12" viewBox="0 0 16 12" fill="white"><rect x="0" y="4" width="3" height="8" rx="1"/><rect x="4" y="2.5" width="3" height="9.5" rx="1"/><rect x="8" y="1" width="3" height="11" rx="1"/><rect x="12" y="0" width="3" height="12" rx="1" opacity=".3"/></svg>
+                    <svg width="15" height="12" viewBox="0 0 15 12" fill="white"><path d="M7.5 2.5C9.8 2.5 11.9 3.5 13.3 5.1L14.5 3.8C12.8 1.9 10.3.7 7.5.7S2.2 1.9.5 3.8l1.2 1.3C3.1 3.5 5.2 2.5 7.5 2.5z"/><path d="M7.5 5.5C9 5.5 10.3 6.1 11.3 7.2L12.5 5.9C11.2 4.5 9.4 3.7 7.5 3.7S3.8 4.5 2.5 5.9l1.2 1.3C4.7 6.1 6 5.5 7.5 5.5z"/><circle cx="7.5" cy="10" r="1.8"/></svg>
+                    <svg width="25" height="12" viewBox="0 0 25 12" fill="white"><rect x="0" y="1.5" width="22" height="9" rx="2.5" stroke="white" stroke-width="1" fill="none" opacity=".35"/><rect x="23" y="4" width="2" height="4" rx="1" fill="white" opacity=".4"/><rect x="1" y="2.5" width="17" height="7" rx="1.5" fill="white"/></svg>
+                  </div>
                 </div>
-              </div>
-              <div class="phone-app-header">
-                <img src="nutrimove_logo.png" alt="Nutrimove" class="hero__phone-logo" />
-                <span class="phone-app-title">Nutrimove <strong>Fit</strong></span>
-              </div>
-              <div class="phone-ring-section">
-                <svg class="phone-ring" viewBox="0 0 120 120" width="110" height="110">
-                  <circle cx="60" cy="60" r="52" fill="none" stroke="#1E293B" stroke-width="8"/>
-                  <circle cx="60" cy="60" r="52" fill="none" stroke="url(#ringGrad)" stroke-width="8" stroke-linecap="round" stroke-dasharray="327" stroke-dashoffset="92" class="phone-ring__progress"/>
-                  <defs><linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#AEEA00"/><stop offset="100%" stop-color="#76FF03"/></linearGradient></defs>
-                </svg>
-                <div class="phone-ring-text">
-                  <span class="phone-ring-val">1 847</span>
-                  <span class="phone-ring-lbl">kcal</span>
+                <div class="iphone17__content">
+                  <div class="i17-app-header">
+                    <img src="nutrimove_logo.png" alt="" class="i17-logo" />
+                    <span class="i17-app-name">Nutrimove <strong>Fit</strong></span>
+                  </div>
+                  <div class="i17-ring-wrap">
+                    <svg viewBox="0 0 120 120" width="115" height="115">
+                      <circle cx="60" cy="60" r="50" fill="none" stroke="#1E293B" stroke-width="10"/>
+                      <circle cx="60" cy="60" r="50" fill="none" stroke="url(#rg1)" stroke-width="10" stroke-linecap="round" stroke-dasharray="314" stroke-dashoffset="78" transform="rotate(-90 60 60)"/>
+                      <defs><linearGradient id="rg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#AEEA00"/><stop offset="100%" stop-color="#76FF03"/></linearGradient></defs>
+                    </svg>
+                    <div class="i17-ring-text"><span class="i17-ring-num">1 847</span><span class="i17-ring-lbl">kcal</span></div>
+                  </div>
+                  <div class="i17-macros">
+                    <div class="i17-macro">
+                      <div class="i17-macro-track"><div class="i17-macro-fill" style="width:78%;background:#AEEA00"></div></div>
+                      <span class="i17-macro-val">124g</span><span class="i17-macro-lbl">Protein</span>
+                    </div>
+                    <div class="i17-macro">
+                      <div class="i17-macro-track"><div class="i17-macro-fill" style="width:64%;background:#06B6D4"></div></div>
+                      <span class="i17-macro-val">198g</span><span class="i17-macro-lbl">Carbs</span>
+                    </div>
+                    <div class="i17-macro">
+                      <div class="i17-macro-track"><div class="i17-macro-fill" style="width:52%;background:#C084FC"></div></div>
+                      <span class="i17-macro-val">61g</span><span class="i17-macro-lbl">Fett</span>
+                    </div>
+                  </div>
                 </div>
+                <div class="iphone17__bottomnav">
+                  <span class="i17-bnav i17-bnav--active" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></span>
+                  <span class="i17-bnav" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14l-5-5 1.41-1.41L12 14.17l7.59-7.59L21 8l-9 9z" opacity=".5"/></svg></span>
+                  <span class="i17-bnav i17-bnav--add" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></span>
+                  <span class="i17-bnav" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.06 22.99h1.66c.84 0 1.53-.64 1.63-1.46L23 5.05h-5V1h-1.97v4.05h-4.97l.3 2.34c1.71.47 3.31 1.32 4.27 2.26 1.44 1.42 2.43 2.89 2.43 5.29v8.05zM1 21.99V21h15.03v.99c0 .55-.45 1-1.01 1H2.01c-.56 0-1.01-.45-1.01-1zm15.03-7c0-3.5-3.47-5.99-7.52-5.99S1 11.49 1 14.99v1h15.03v-1z" opacity=".5"/></svg></span>
+                  <span class="i17-bnav" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" opacity=".5"/></svg></span>
+                </div>
+                <div class="iphone17__home-indicator"></div>
               </div>
-              <div class="phone-macro-row">
-                <div class="phone-macro phone-macro--p"><div class="phone-macro-bar"><div class="phone-macro-bar__fill macro-78"></div></div><span class="phone-macro__val">124g</span><span class="phone-macro__lbl">Protein</span></div>
-                <div class="phone-macro phone-macro--c"><div class="phone-macro-bar"><div class="phone-macro-bar__fill macro-64"></div></div><span class="phone-macro__val">198g</span><span class="phone-macro__lbl">Carbs</span></div>
-                <div class="phone-macro phone-macro--f"><div class="phone-macro-bar"><div class="phone-macro-bar__fill macro-52"></div></div><span class="phone-macro__val">61g</span><span class="phone-macro__lbl">Fett</span></div>
-              </div>
-              <div class="phone-bottom-nav">
-                <span class="phone-bnav active">🏠</span>
-                <span class="phone-bnav">📊</span>
-                <span class="phone-bnav phone-bnav--add">＋</span>
-                <span class="phone-bnav">🍽️</span>
-                <span class="phone-bnav">👤</span>
-              </div>
+            </div>
+            <div class="iphone17__bottom-edge">
+              <div class="iphone17__speaker"></div>
+              <div class="iphone17__usbc"></div>
+              <div class="iphone17__speaker"></div>
             </div>
           </div>
           <div class="phone-label">Dashboard</div>
         </div>
 
-        <!-- Phone 2: Recipes -->
+        <!-- ── Phone 2: Recipes ── -->
         <div class="phone-slide">
-          <div class="hero__phone">
-            <div class="hero__phone-screen">
-              <div class="phone-statusbar">
-                <span>9:41</span>
-                <div class="phone-statusbar__icons">
-                  <span class="phone-signal">●●●●○</span>
-                  <span class="phone-wifi">⚡</span>
-                  <span class="phone-battery">87%</span>
+          <div class="iphone17">
+            <div class="iphone17__btn-action"></div>
+            <div class="iphone17__btn-vol-up"></div>
+            <div class="iphone17__btn-vol-down"></div>
+            <div class="iphone17__btn-power"></div>
+            <div class="iphone17__body">
+              <div class="iphone17__screen">
+                <div class="iphone17__island"><div class="iphone17__island-cam"></div></div>
+                <div class="iphone17__statusbar">
+                  <span class="iphone17__time">9:41</span>
+                  <div class="iphone17__status-icons">
+                    <svg width="16" height="12" viewBox="0 0 16 12" fill="white"><rect x="0" y="4" width="3" height="8" rx="1"/><rect x="4" y="2.5" width="3" height="9.5" rx="1"/><rect x="8" y="1" width="3" height="11" rx="1"/><rect x="12" y="0" width="3" height="12" rx="1" opacity=".3"/></svg>
+                    <svg width="15" height="12" viewBox="0 0 15 12" fill="white"><path d="M7.5 2.5C9.8 2.5 11.9 3.5 13.3 5.1L14.5 3.8C12.8 1.9 10.3.7 7.5.7S2.2 1.9.5 3.8l1.2 1.3C3.1 3.5 5.2 2.5 7.5 2.5z"/><path d="M7.5 5.5C9 5.5 10.3 6.1 11.3 7.2L12.5 5.9C11.2 4.5 9.4 3.7 7.5 3.7S3.8 4.5 2.5 5.9l1.2 1.3C4.7 6.1 6 5.5 7.5 5.5z"/><circle cx="7.5" cy="10" r="1.8"/></svg>
+                    <svg width="25" height="12" viewBox="0 0 25 12" fill="white"><rect x="0" y="1.5" width="22" height="9" rx="2.5" stroke="white" stroke-width="1" fill="none" opacity=".35"/><rect x="23" y="4" width="2" height="4" rx="1" fill="white" opacity=".4"/><rect x="1" y="2.5" width="17" height="7" rx="1.5" fill="white"/></svg>
+                  </div>
                 </div>
-              </div>
-              <div class="phone-app-header">
-                <input type="text" class="phone-app-search" placeholder="🔍 Rezepte durchsuchen..." />
-              </div>
-              <div class="phone-app-content">
-                <div class="recipe-card featured">
-                  <div class="recipe-card__title">Lachs-Buddha-Bowl</div>
-                  <div class="recipe-card__meta">🥗 350 kcal · 28g Protein</div>
+                <div class="iphone17__content">
+                  <div class="i17-app-header i17-app-header--dark">
+                    <span class="i17-screen-title">5'000+ Rezepte</span>
+                  </div>
+                  <div class="i17-search-wrap">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="#94A3B8"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                    <span class="i17-search-placeholder">Rezepte durchsuchen…</span>
+                  </div>
+                  <div class="i17-recipes">
+                    <div class="i17-recipe i17-recipe--featured">
+                      <div class="i17-recipe-emoji">🥗</div>
+                      <div class="i17-recipe-info">
+                        <div class="i17-recipe-name">Lachs-Buddha-Bowl</div>
+                        <div class="i17-recipe-meta">350 kcal · 28g Protein</div>
+                      </div>
+                      <div class="i17-recipe-kcal">350</div>
+                    </div>
+                    <div class="i17-recipe">
+                      <div class="i17-recipe-emoji">🥤</div>
+                      <div class="i17-recipe-info">
+                        <div class="i17-recipe-name">Grüner Smoothie</div>
+                        <div class="i17-recipe-meta">180 kcal · 8g Protein</div>
+                      </div>
+                      <div class="i17-recipe-kcal">180</div>
+                    </div>
+                    <div class="i17-recipe">
+                      <div class="i17-recipe-emoji">🥘</div>
+                      <div class="i17-recipe-info">
+                        <div class="i17-recipe-name">Quinoa &amp; Gemüse</div>
+                        <div class="i17-recipe-meta">420 kcal · 15g Protein</div>
+                      </div>
+                      <div class="i17-recipe-kcal">420</div>
+                    </div>
+                    <div class="i17-recipe">
+                      <div class="i17-recipe-emoji">🍳</div>
+                      <div class="i17-recipe-info">
+                        <div class="i17-recipe-name">Avocado Toast</div>
+                        <div class="i17-recipe-meta">290 kcal · 9g Protein</div>
+                      </div>
+                      <div class="i17-recipe-kcal">290</div>
+                    </div>
+                  </div>
                 </div>
-                <div class="recipe-card">
-                  <div class="recipe-card__title">Grüner Smoothie</div>
-                  <div class="recipe-card__meta">🥤 180 kcal · 8g Protein</div>
+                <div class="iphone17__bottomnav">
+                  <span class="i17-bnav" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" opacity=".5"/></svg></span>
+                  <span class="i17-bnav" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14l-5-5 1.41-1.41L12 14.17l7.59-7.59L21 8l-9 9z" opacity=".5"/></svg></span>
+                  <span class="i17-bnav i17-bnav--add" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></span>
+                  <span class="i17-bnav i17-bnav--active" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.06 22.99h1.66c.84 0 1.53-.64 1.63-1.46L23 5.05h-5V1h-1.97v4.05h-4.97l.3 2.34c1.71.47 3.31 1.32 4.27 2.26 1.44 1.42 2.43 2.89 2.43 5.29v8.05zM1 21.99V21h15.03v.99c0 .55-.45 1-1.01 1H2.01c-.56 0-1.01-.45-1.01-1zm15.03-7c0-3.5-3.47-5.99-7.52-5.99S1 11.49 1 14.99v1h15.03v-1z"/></svg></span>
+                  <span class="i17-bnav" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" opacity=".5"/></svg></span>
                 </div>
-                <div class="recipe-card">
-                  <div class="recipe-card__title">Quinoa &amp; Gemüse</div>
-                  <div class="recipe-card__meta">🥘 420 kcal · 15g Protein</div>
-                </div>
-              </div>
-              <div class="phone-bottom-nav">
-                <span class="phone-bnav">🏠</span>
-                <span class="phone-bnav">📊</span>
-                <span class="phone-bnav phone-bnav--add">＋</span>
-                <span class="phone-bnav active">🍽️</span>
-                <span class="phone-bnav">👤</span>
+                <div class="iphone17__home-indicator"></div>
               </div>
             </div>
+            <div class="iphone17__bottom-edge">
+              <div class="iphone17__speaker"></div>
+              <div class="iphone17__usbc"></div>
+              <div class="iphone17__speaker"></div>
+            </div>
           </div>
-          <div class="phone-label">5000+ Rezepte</div>
+          <div class="phone-label">5'000+ Rezepte</div>
         </div>
 
-        <!-- Phone 3: Analytics -->
+        <!-- ── Phone 3: Analytics ── -->
         <div class="phone-slide">
-          <div class="hero__phone">
-            <div class="hero__phone-screen">
-              <div class="phone-statusbar">
-                <span>9:41</span>
-                <div class="phone-statusbar__icons">
-                  <span class="phone-signal">●●●●○</span>
-                  <span class="phone-wifi">⚡</span>
-                  <span class="phone-battery">87%</span>
-                </div>
-              </div>
-              <div class="phone-app-header gradient-purple">
-                <span class="phone-app-title light">Fortschritt</span>
-              </div>
-              <div class="phone-app-content narrow">
-                <div class="analytics-hero">
-                  <div class="analytics-hero__value">-4,2kg</div>
-                  <div class="analytics-hero__label">Diese Woche</div>
-                </div>
-                <div class="analytics-hero">
-                  <div class="analytics-hero__label">Kalorien (Woche)</div>
-                  <div class="analytics-chart"></div>
-                </div>
-                <div class="analytics-grid">
-                  <div class="analytics-tile">
-                    <div class="analytics-tile__label">Trainings</div>
-                    <div class="analytics-tile__value">12</div>
-                  </div>
-                  <div class="analytics-tile">
-                    <div class="analytics-tile__label">Avg. Schritt</div>
-                    <div class="analytics-tile__value cyan">9.2k</div>
+          <div class="iphone17">
+            <div class="iphone17__btn-action"></div>
+            <div class="iphone17__btn-vol-up"></div>
+            <div class="iphone17__btn-vol-down"></div>
+            <div class="iphone17__btn-power"></div>
+            <div class="iphone17__body">
+              <div class="iphone17__screen">
+                <div class="iphone17__island"><div class="iphone17__island-cam"></div></div>
+                <div class="iphone17__statusbar">
+                  <span class="iphone17__time">9:41</span>
+                  <div class="iphone17__status-icons">
+                    <svg width="16" height="12" viewBox="0 0 16 12" fill="white"><rect x="0" y="4" width="3" height="8" rx="1"/><rect x="4" y="2.5" width="3" height="9.5" rx="1"/><rect x="8" y="1" width="3" height="11" rx="1"/><rect x="12" y="0" width="3" height="12" rx="1" opacity=".3"/></svg>
+                    <svg width="15" height="12" viewBox="0 0 15 12" fill="white"><path d="M7.5 2.5C9.8 2.5 11.9 3.5 13.3 5.1L14.5 3.8C12.8 1.9 10.3.7 7.5.7S2.2 1.9.5 3.8l1.2 1.3C3.1 3.5 5.2 2.5 7.5 2.5z"/><path d="M7.5 5.5C9 5.5 10.3 6.1 11.3 7.2L12.5 5.9C11.2 4.5 9.4 3.7 7.5 3.7S3.8 4.5 2.5 5.9l1.2 1.3C4.7 6.1 6 5.5 7.5 5.5z"/><circle cx="7.5" cy="10" r="1.8"/></svg>
+                    <svg width="25" height="12" viewBox="0 0 25 12" fill="white"><rect x="0" y="1.5" width="22" height="9" rx="2.5" stroke="white" stroke-width="1" fill="none" opacity=".35"/><rect x="23" y="4" width="2" height="4" rx="1" fill="white" opacity=".4"/><rect x="1" y="2.5" width="17" height="7" rx="1.5" fill="white"/></svg>
                   </div>
                 </div>
-              </div>
-              <div class="phone-bottom-nav">
-                <span class="phone-bnav">🏠</span>
-                <span class="phone-bnav active">📊</span>
-                <span class="phone-bnav phone-bnav--add">＋</span>
-                <span class="phone-bnav">🍽️</span>
-                <span class="phone-bnav">👤</span>
+                <div class="iphone17__content">
+                  <div class="i17-app-header i17-app-header--purple">
+                    <span class="i17-screen-title">Analytics</span>
+                  </div>
+                  <div class="i17-analytics">
+                    <div class="i17-stat-hero">
+                      <div class="i17-stat-hero__val">−4,2 kg</div>
+                      <div class="i17-stat-hero__lbl">Diese Woche · Ziel: 75 kg</div>
+                      <div class="i17-weight-bar">
+                        <div class="i17-weight-fill"></div>
+                      </div>
+                    </div>
+                    <div class="i17-chart-lbl">Kalorien dieser Woche</div>
+                    <div class="i17-chart">
+                      <svg viewBox="0 0 220 70" width="100%" height="70" preserveAspectRatio="none">
+                        <defs>
+                          <linearGradient id="cg1" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stop-color="#AEEA00" stop-opacity=".5"/>
+                            <stop offset="100%" stop-color="#AEEA00" stop-opacity="0"/>
+                          </linearGradient>
+                        </defs>
+                        <path d="M0 55 C20 50 30 30 50 35 S80 20 100 25 S140 15 160 20 S190 10 220 12 L220 70 L0 70 Z" fill="url(#cg1)"/>
+                        <path d="M0 55 C20 50 30 30 50 35 S80 20 100 25 S140 15 160 20 S190 10 220 12" fill="none" stroke="#AEEA00" stroke-width="2.5" stroke-linecap="round"/>
+                        <circle cx="220" cy="12" r="4" fill="#AEEA00"/>
+                      </svg>
+                    </div>
+                    <div class="i17-stats-grid">
+                      <div class="i17-stat-tile">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#AEEA00"><path d="M13.49 5.48c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm-3.6 13.9l1-4.4 2.1 2v6h2v-7.5l-2.1-2 .6-3c1.3 1.5 3.3 2.5 5.5 2.5v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1l-5.2 2.2v4.7h2v-3.4l1.8-.7-1.6 8.1-4.9-1-.4 2 7 1.4z"/></svg>
+                        <div class="i17-stat-tile__val">12</div>
+                        <div class="i17-stat-tile__lbl">Trainings</div>
+                      </div>
+                      <div class="i17-stat-tile">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#06B6D4"><path d="M13.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM9.8 8.9L7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1L6 8.3V13h2V9.6l1.8-.7z"/></svg>
+                        <div class="i17-stat-tile__val" style="color:#06B6D4">9.2k</div>
+                        <div class="i17-stat-tile__lbl">∅ Schritte</div>
+                      </div>
+                      <div class="i17-stat-tile">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+                        <div class="i17-stat-tile__val" style="color:#F59E0B">7.2h</div>
+                        <div class="i17-stat-tile__lbl">∅ Schlaf</div>
+                      </div>
+                      <div class="i17-stat-tile">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#C084FC"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/></svg>
+                        <div class="i17-stat-tile__val" style="color:#C084FC">89%</div>
+                        <div class="i17-stat-tile__lbl">Ziel-Score</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="iphone17__bottomnav">
+                  <span class="i17-bnav" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" opacity=".5"/></svg></span>
+                  <span class="i17-bnav i17-bnav--active" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14l-5-5 1.41-1.41L12 14.17l7.59-7.59L21 8l-9 9z"/></svg></span>
+                  <span class="i17-bnav i17-bnav--add" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></span>
+                  <span class="i17-bnav" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.06 22.99h1.66c.84 0 1.53-.64 1.63-1.46L23 5.05h-5V1h-1.97v4.05h-4.97l.3 2.34c1.71.47 3.31 1.32 4.27 2.26 1.44 1.42 2.43 2.89 2.43 5.29v8.05zM1 21.99V21h15.03v.99c0 .55-.45 1-1.01 1H2.01c-.56 0-1.01-.45-1.01-1zm15.03-7c0-3.5-3.47-5.99-7.52-5.99S1 11.49 1 14.99v1h15.03v-1z" opacity=".5"/></svg></span>
+                  <span class="i17-bnav" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" opacity=".5"/></svg></span>
+                </div>
+                <div class="iphone17__home-indicator"></div>
               </div>
             </div>
+            <div class="iphone17__bottom-edge">
+              <div class="iphone17__speaker"></div>
+              <div class="iphone17__usbc"></div>
+              <div class="iphone17__speaker"></div>
+            </div>
           </div>
-          <div class="phone-label">Analytics & Reports</div>
+          <div class="phone-label">Analytics &amp; Reports</div>
         </div>
+
       </div>
 
       <!-- Navigation Dots -->
@@ -332,9 +434,6 @@
         <button class="dot" data-slide="1" aria-label="Slide 2: Rezepte"></button>
         <button class="dot" data-slide="2" aria-label="Slide 3: Analytics"></button>
       </div>
-
-      <!-- Swipe Indicator -->
-      <div class="swipe-hint">↔️ Swipe zum Scrollen</div>
     </div>
   </div>
 </section>

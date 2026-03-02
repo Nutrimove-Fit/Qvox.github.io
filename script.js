@@ -709,7 +709,8 @@
   
   function updatePhoneSlide(slideIndex) {
     currentSlide = slideIndex;
-    const offset = -currentSlide * 100;
+    // Track is 300% wide; each slide = 33.333% of track = 100% of visible area
+    const offset = -(currentSlide * (100 / 3));
     phonesTrack.style.transform = `translateX(${offset}%)`;
     
     // Update dots
