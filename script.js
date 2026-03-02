@@ -373,26 +373,8 @@
   }, { passive: true });
 
   // ══════════════════════════════════════════════════
-  //  12 · PRICING TABS (enhanced with slide)
+  //  12 · PRICING (tabs removed — standalone sections now)
   // ══════════════════════════════════════════════════
-  const pricingTabs = document.querySelectorAll('.pricing__tab');
-  pricingTabs.forEach((tab) =>
-    tab.addEventListener('click', () => {
-      const target = tab.dataset.tab;
-      pricingTabs.forEach((t) => t.classList.remove('active'));
-      document.querySelectorAll('.pricing__panel').forEach((p) => {
-        p.classList.remove('active');
-        p.style.animation = '';
-      });
-      tab.classList.add('active');
-      const panel = document.getElementById('panel-' + target);
-      if (panel) {
-        panel.classList.add('active');
-        panel.style.animation = 'fadeSlideUp .5s ease forwards';
-        panel.querySelectorAll('.reveal:not(.visible)').forEach((el) => revealObserver.observe(el));
-      }
-    })
-  );
 
   // ══════════════════════════════════════════════════
   //  13 · LEGAL TABS

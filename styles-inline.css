@@ -221,11 +221,23 @@
 
 /* Fix: 'Beliebt' / 'Empfohlen' badge gets clipped by parent overflow */
 .pricing__panel,
-.pricing__grid {
+.pricing__grid,
+.pricing,
+.pricing.section,
+.clubs__cta,
+.clubs__pricing-cards {
   overflow: visible !important;
 }
-.pricing__panel .pricing__grid {
+.pricing__grid {
   padding-top: 1.25rem;
+}
+.price-card,
+.clubs__plan {
+  overflow: visible !important;
+}
+.price-card__badge,
+.clubs__plan-badge {
+  z-index: 2;
 }
 
 /* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
@@ -915,5 +927,108 @@
   font-size: var(--fs-xs);
   color: var(--text2);
   margin-top: .5rem;
+  opacity: .7;
+}
+
+/* ══════════════════════════════════════════════
+   Physiotherapeuten Section
+══════════════════════════════════════════════ */
+.physio {
+  background: linear-gradient(180deg, var(--bg) 0%, rgba(56,182,255,.03) 50%, var(--bg) 100%);
+  border-top: 1px solid rgba(56,182,255,.08);
+  border-bottom: 1px solid rgba(56,182,255,.08);
+}
+.physio__content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.physio__card {
+  background: var(--surface);
+  border: 1px solid var(--outline);
+  border-radius: var(--radius-lg);
+  padding: 3rem 2.5rem;
+  text-align: center;
+  position: relative;
+  overflow: visible;
+}
+.physio__status {
+  margin-bottom: 1.5rem;
+}
+.physio__badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #38b6ff, #0084d6);
+  color: #fff;
+  font-size: .75rem;
+  font-weight: 700;
+  padding: .35rem 1.2rem;
+  border-radius: 50px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  animation: physio-pulse 2.5s ease-in-out infinite;
+}
+@keyframes physio-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(56,182,255,.4); }
+  50% { box-shadow: 0 0 20px 6px rgba(56,182,255,.15); }
+}
+.physio__icon {
+  width: 80px;
+  height: 80px;
+  background: rgba(56,182,255,.08);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  color: #38b6ff;
+  border: 1px solid rgba(56,182,255,.15);
+}
+.physio__card h3 {
+  font-size: var(--fs-2xl);
+  font-weight: 800;
+  margin-bottom: .75rem;
+  color: var(--text1);
+}
+.physio__card > p {
+  font-size: var(--fs-base);
+  color: var(--text2);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.physio__features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .75rem 1.5rem;
+  text-align: left;
+}
+@media (max-width: 580px) {
+  .physio__features { grid-template-columns: 1fr; }
+  .physio__card { padding: 2rem 1.5rem; }
+}
+.physio__features li {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  font-size: var(--fs-sm);
+  color: var(--text2);
+  line-height: 1.5;
+}
+.physio__features li svg {
+  flex-shrink: 0;
+  color: #38b6ff;
+}
+.physio__cta {
+  border-top: 1px solid var(--outline);
+  padding-top: 1.5rem;
+}
+.physio__cta .btn {
+  min-width: 220px;
+}
+.physio__hint {
+  font-size: var(--fs-xs);
+  color: var(--text2);
+  margin-top: .75rem;
   opacity: .7;
 }
