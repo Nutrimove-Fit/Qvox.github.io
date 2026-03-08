@@ -192,8 +192,8 @@ Diese Datenschutzerklärung kann bei Bedarf angepasst werden — etwa bei Gesetz
 
 ## 13. Weiterführende Dokumente
 
-- **Impressum:** [Impressum.md](Impressum.md)
-- **Allgemeine Geschäftsbedingungen:** [AGB.md](AGB.md)
+- **Impressum:** Im App-Menü unter Einstellungen → Rechtliches → Impressum
+- **Allgemeine Geschäftsbedingungen:** Im App-Menü unter Einstellungen → Rechtliches → AGB
 
 ---
 
