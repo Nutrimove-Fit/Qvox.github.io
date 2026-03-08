@@ -20,17 +20,42 @@
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="NUTRIMOVE – Ernährungsapp">
 
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!-- Viewport: Vollbild auf iPhone, kein Zoom, deckt Notch/Safe Area ab -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+
+  <!-- iOS PWA: Vollbild-Modus (Home Screen App) -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="NUTRIMOVE">
   <link rel="apple-touch-icon" href="icons/Icon-192.png?v=20260105">
+  <link rel="apple-touch-icon" sizes="152x152" href="icons/Icon-192.png?v=20260105">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/Icon-192.png?v=20260105">
+
+  <!-- Theme Color für iOS Safari Statusbar -->
+  <meta name="theme-color" content="#000000">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png?v=20260105"/>
 
   <title>NUTRIMOVE</title>
   <link rel="manifest" href="manifest.json?v=20260105">
+
+  <style>
+    /* Vollbild & kein weisser Rand auf iOS */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      height: -webkit-fill-available;
+      overflow: hidden;
+      background-color: #111111;
+    }
+    /* Flutter canvas füllt die Notch-freie Fläche aus */
+    flt-glass-pane, flutter-view {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  </style>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
