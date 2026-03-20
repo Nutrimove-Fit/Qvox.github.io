@@ -6,8 +6,8 @@ Diese Datenschutzerklärung beschreibt, welche Daten die App Nutrimove Fit erheb
 
 ## Verantwortliche Stelle
 Nutrimove Fit
-Kontakt: privacy@example.com
-Website: https://your-company.example.com
+Kontakt: info.nutrimovefit@gmail.com
+Website: https://nutrimove-fit.github.io/app
 
 ## Welche Daten wir verarbeiten
 - Kamera-Bilder: Die App benötigt die Berechtigung `android.permission.CAMERA` bzw. Zugriff auf die Galerie, um Fotos Ihrer Mahlzeiten aufzunehmen oder auszuwählen. Fotos werden zur Analyse an unseren Backend-Server und gegebenenfalls an Google Cloud Vision (Vision API) weitergeleitet.
@@ -28,11 +28,13 @@ Website: https://your-company.example.com
 Wir setzen angemessene technische und organisatorische Maßnahmen ein, um personenbezogene Daten zu schützen (Verschlüsselung in Transit, Zugriffsbeschränkungen).
 
 ## Ihre Rechte
-Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit. Zur Ausübung dieser Rechte kontaktieren Sie uns unter privacy@example.com.
+Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit. Zur Ausübung dieser Rechte kontaktieren Sie uns unter info.nutrimovefit@gmail.com.
 
 ## Datenschutzerklärung für App Store / Play Console
-Diese Seite erfüllt die Anforderungen zur Offenlegung der Nutzung von Kamera-Daten und Drittanbieter-Verarbeitung (Google Cloud Vision). Bitte geben Sie bei der Play Console / App Store Connect als Privacy Policy URL die öffentliche Adresse dieser Seite an, z. B. `https://your-company.example.com/privacy`.
+Diese Seite erfüllt die Anforderungen zur Offenlegung der Nutzung von Kamera-Daten und Drittanbieter-Verarbeitung (Google Cloud Vision). Bitte geben Sie bei der Play Console / App Store Connect als Privacy Policy URL die öffentliche Adresse dieser Seite an:
+
+https://nutrimove-fit.github.io/app/assets/assets/legal/privacy_policy.md
 
 ---
 
-Falls Sie möchten, passe ich diese Erklärung mit eurer echten Kontaktadresse, Firmendaten und einer öffentlichen URL an.
+Diese Datenschutzerklärung wurde automatisch mit den angegebenen Kontaktdaten aktualisiert.
