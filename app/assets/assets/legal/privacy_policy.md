@@ -7,7 +7,7 @@ Diese Datenschutzerklärung beschreibt, welche Daten die App Nutrimove Fit erheb
 ## Verantwortliche Stelle
 Nutrimove Fit
 Kontakt: info.nutrimovefit@gmail.com
-Website: https://nutrimove-fit.github.io/app
+Website: https://nutrimove-fit.github.io/
 
 ## Welche Daten wir verarbeiten
 - Kamera-Bilder: Die App benötigt die Berechtigung `android.permission.CAMERA` bzw. Zugriff auf die Galerie, um Fotos Ihrer Mahlzeiten aufzunehmen oder auszuwählen. Fotos werden zur Analyse an unseren Backend-Server und gegebenenfalls an Google Cloud Vision (Vision API) weitergeleitet.
@@ -33,7 +33,7 @@ Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Ve
 ## Datenschutzerklärung für App Store / Play Console
 Diese Seite erfüllt die Anforderungen zur Offenlegung der Nutzung von Kamera-Daten und Drittanbieter-Verarbeitung (Google Cloud Vision). Bitte geben Sie bei der Play Console / App Store Connect als Privacy Policy URL die öffentliche Adresse dieser Seite an:
 
-https://nutrimove-fit.github.io/app/assets/assets/legal/privacy_policy.md
+https://nutrimove-fit.github.io/assets/assets/legal/privacy_policy.md
 
 ---
 
