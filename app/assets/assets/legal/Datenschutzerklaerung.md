@@ -1,6 +1,6 @@
 # Datenschutzerklärung
 
-**Letzte Aktualisierung: 22. Februar 2026**
+**Letzte Aktualisierung: 22. März 2026**
 
 ---
 
@@ -138,7 +138,7 @@ Du hast im Rahmen des geltenden Rechts folgende Rechte:
 ### 9.1 Auskunftsrecht (Art. 25 DSG / Art. 15 DSGVO)
 
 Du kannst anfragen, welche Daten wir über dich verarbeiten.
-**Anfrage an:** privacy@nutrimove.ch
+**Anfrage an:** info.nutrimovefit@gmail.com
 
 ### 9.2 Recht auf Berichtigung (Art. 32 DSG / Art. 16 DSGVO)
 
@@ -197,4 +197,4 @@ Diese Datenschutzerklärung kann bei Bedarf angepasst werden — etwa bei Gesetz
 
 ---
 
-*Zuletzt aktualisiert: 22. Februar 2026*
+*Zuletzt aktualisiert: 22. März 2026*

@@ -7,8 +7,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "fdccd2d1b95dfb93102166733634906a
 "assets/AssetManifest.bin.json": "e196dd61ddd470cf662ced3e873c4160",
 "assets/assets/branding/NutriMove%2520ohne%2520Text%2520und%2520Hintergrund.png": "438b8e5dfbf0532885783ada02d25fdd",
 "assets/assets/branding/nutrimove_logo.png": "c52123dc7807bf7623091bdf377df07c",
-"assets/assets/legal/AGB.md": "353f535ab28d07671820dd89c26af5d9",
-"assets/assets/legal/Datenschutzerklaerung.md": "e9c351f3e1ed471a0cc058a8058c5d3d",
+"assets/assets/legal/AGB.md": "cd46c1236807e5de61dccc7191b18fed",
+"assets/assets/legal/Datenschutzerklaerung.md": "1f8d70cea0331fb213ea838ca3232a9e",
 "assets/assets/legal/Impressum.md": "ec9c8396051f343a67320eed0ed5d82e",
 "assets/assets/legal/privacy_policy.md": "e8605148b94fe93b3b4b7f5cff35b5be",
 "assets/FontManifest.json": "e8ffcdb543de3457df4202315dd59741",
@@ -34,16 +34,16 @@ const RESOURCES = {"assets/AssetManifest.bin": "fdccd2d1b95dfb93102166733634906a
 "canvaskit/skwasm_heavy.wasm": "b0be7910760d205ea4e011458df6ee01",
 "favicon.png": "ac27aef056d2e39a9d97d7e9965d6864",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "3bdc1ad1c97a3a8e5255db1b6e5fad17",
+"flutter_bootstrap.js": "d859412015aa1a75f60a59dca48ea2f1",
 "icons/Icon-192.png": "99059ac69f82d78784d2312617406bf3",
 "icons/Icon-512.png": "3ef55d4e1ac93cfddd68cb1a17cd0ef2",
 "icons/Icon-maskable-192.png": "99059ac69f82d78784d2312617406bf3",
 "icons/Icon-maskable-512.png": "3ef55d4e1ac93cfddd68cb1a17cd0ef2",
 "index.html": "d48e7ed9822ca23ae204f6df133b8ae2",
 "/": "d48e7ed9822ca23ae204f6df133b8ae2",
-"main.dart.js": "f50c8eb8905e8ba7679d2eaefecc9f9f",
+"main.dart.js": "183d383c6a3e3c5e73c1a0373a6bbb30",
 "manifest.json": "255bd95680724a2282a0f82656d5d5fd",
-"version.json": "b0b358250337dd5a47d93a1b68133dbd"};
+"version.json": "ba9237114eccd75973d54bb820d55707"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",

@@ -1,6 +1,6 @@
 ﻿# Allgemeine Geschäftsbedingungen (AGB)
 
-**Gültig ab: 22. Februar 2026**
+**Gültig ab: 22. März 2026**
 
 ---
 
@@ -27,6 +27,8 @@ Der Dienst umfasst insbesondere:
 - Optional: KI-gestützte Assistenzfunktionen (falls aktiviert)
 
 Der Dienst stellt Informationen, Vorlagen und Werkzeuge bereit. **Er ersetzt keine medizinische, therapeutische oder ernährungswissenschaftliche Beratung.**
+
+Für die Web-Version unter https://nutrimove-fit.github.io/ sowie für mobile Apps gelten dieselben Nutzungsbedingungen.
 
 ---
 
@@ -157,4 +159,4 @@ Die Verarbeitung personenbezogener Daten ist in der [Datenschutzerklärung](Date
 
 ---
 
-*Zuletzt aktualisiert: 22. Februar 2026*
+*Zuletzt aktualisiert: 22. März 2026*
