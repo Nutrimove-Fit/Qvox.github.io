@@ -1,18 +1,18 @@
-﻿# Allgemeine Geschäftsbedingungen (AGB)
+# Allgemeine Geschäftsbedingungen (AGB)
 
-**Gültig ab: 22. Februar 2026**
+**Gültig ab: 20. März 2026**
 
 ---
 
 ## 1. Anbietende Partei und Geltungsbereich
 
-**Unternehmen:** NutriMove Fit
+**Unternehmen:** Qvox
 **Inhaber:** Mamadou Balde
 **Adresse:** Freiestrasse 100, 8032 Zürich, Schweiz
-**E-Mail:** info.nutrimovefit@gmail.com
-**Support:** info.nutrimovefit@gmail.com
+**E-Mail:** info@qvox.ch
+**Support:** info@qvox.ch
 
-Diese AGB gelten für sämtliche Nutzerinnen und Nutzer (nachfolgend «Kundinnen und Kunden»), die den Dienst NutriMove Fit (nachfolgend «Dienst») verwenden. Mit der Registrierung oder Nutzung des Dienstes erklären sich Kundinnen und Kunden mit diesen AGB einverstanden.
+Diese AGB gelten für sämtliche Nutzerinnen und Nutzer (nachfolgend «Kundinnen und Kunden»), die den Dienst Qvox (nachfolgend «Dienst») verwenden. Mit der Registrierung oder Nutzung des Dienstes erklären sich Kundinnen und Kunden mit diesen AGB einverstanden.
 
 ---
 
@@ -144,9 +144,9 @@ Die Verarbeitung personenbezogener Daten ist in der [Datenschutzerklärung](Date
 
 ## 13. Kontakt
 
-- **Rechtliche Anfragen:** info.nutrimovefit@gmail.com
-- **Support:** info.nutrimovefit@gmail.com
-- **Allgemein:** info.nutrimovefit@gmail.com
+- **Rechtliche Anfragen:** info@qvox.ch
+- **Support:** info@qvox.ch
+- **Allgemein:** info@qvox.ch
 
 ---
 
@@ -157,4 +157,14 @@ Die Verarbeitung personenbezogener Daten ist in der [Datenschutzerklärung](Date
 
 ---
 
-*Zuletzt aktualisiert: 22. Februar 2026*
+## 15. Aktualisierung und Review-Zyklus
+
+15.1 Diese AGB werden mindestens quartalsweise sowie bei wesentlichen Produkt- oder Gesetzesänderungen überprüft.
+
+15.2 Änderungen werden versioniert dokumentiert; die jeweils aktuelle Fassung ist im Dienst und im Repository verfügbar.
+
+15.3 Bei wesentlichen Änderungen werden Nutzerinnen und Nutzer aktiv informiert (z. B. In-App-Hinweis oder E-Mail).
+
+---
+
+*Zuletzt aktualisiert: 20. März 2026*

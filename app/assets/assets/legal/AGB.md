@@ -1,4 +1,4 @@
-﻿# Allgemeine Geschäftsbedingungen (AGB)
+# Allgemeine Geschäftsbedingungen (AGB)
 
 **Gültig ab: 22. März 2026**
 
@@ -6,13 +6,13 @@
 
 ## 1. Anbietende Partei und Geltungsbereich
 
-**Unternehmen:** Nutrimove Fit
+**Unternehmen:** Qvox
 **Inhaber:** Mamadou Balde
 **Adresse:** Freiestrasse 100, 8032 Zürich, Schweiz
-**E-Mail:** info.nutrimovefit@gmail.com
-**Support:** info.nutrimovefit@gmail.com
+**E-Mail:** info@qvox.ch
+**Support:** info@qvox.ch
 
-Diese AGB gelten für sämtliche Nutzerinnen und Nutzer (nachfolgend «Kundinnen und Kunden»), die den Dienst Nutrimove Fit (nachfolgend «Dienst») verwenden. Mit der Registrierung oder Nutzung des Dienstes erklären sich Kundinnen und Kunden mit diesen AGB einverstanden.
+Diese AGB gelten für sämtliche Nutzerinnen und Nutzer (nachfolgend «Kundinnen und Kunden»), die den Dienst Qvox (nachfolgend «Dienst») verwenden. Mit der Registrierung oder Nutzung des Dienstes erklären sich Kundinnen und Kunden mit diesen AGB einverstanden.
 
 ---
 
@@ -28,7 +28,7 @@ Der Dienst umfasst insbesondere:
 
 Der Dienst stellt Informationen, Vorlagen und Werkzeuge bereit. **Er ersetzt keine medizinische, therapeutische oder ernährungswissenschaftliche Beratung.**
 
-Für die Web-Version unter https://nutrimove-fit.github.io/ sowie für mobile Apps gelten dieselben Nutzungsbedingungen.
+Für die Web-Version unter https://qvox.ch/ sowie für mobile Apps gelten dieselben Nutzungsbedingungen.
 
 ---
 
@@ -146,9 +146,9 @@ Die Verarbeitung personenbezogener Daten ist in der [Datenschutzerklärung](Date
 
 ## 13. Kontakt
 
-- **Rechtliche Anfragen:** info.nutrimovefit@gmail.com
-- **Support:** info.nutrimovefit@gmail.com
-- **Allgemein:** info.nutrimovefit@gmail.com
+- **Rechtliche Anfragen:** info@qvox.ch
+- **Support:** info@qvox.ch
+- **Allgemein:** info@qvox.ch
 
 ---
 

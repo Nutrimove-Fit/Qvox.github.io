@@ -1,11 +1,11 @@
 {
-    "name": "Nutrimove Fit",
-    "short_name": "Nutrimove",
+    "name": "Qvox",
+    "short_name": "Qvox",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#111111",
     "theme_color": "#111111",
-    "description": "Nutrimove Fit – Trainings- & Ernährungsapp",
+    "description": "Qvox - Trainings- & Ernährungsapp",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
