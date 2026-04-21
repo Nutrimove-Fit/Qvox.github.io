@@ -3,10 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "78d1e5763eba6b23fea714d5171923d8",
-"assets/AssetManifest.bin.json": "9fc22865a8bbe9bf25bc08e6f483547f",
-"assets/assets/branding/NutriMove%2520ohne%2520Text%2520und%2520Hintergrund.png": "438b8e5dfbf0532885783ada02d25fdd",
-"assets/assets/branding/nutrimove_logo.png": "c52123dc7807bf7623091bdf377df07c",
+const RESOURCES = {"assets/AssetManifest.bin": "2d74d354b14f30eea45ecf0d28bb99b2",
+"assets/AssetManifest.bin.json": "541125f9dbdafa94ea6ff0877791aabc",
 "assets/assets/branding/qvox_logo.png": "bc954570394e2e774f457f40e9c6c4b6",
 "assets/assets/branding/qvox_mark.png": "438b8e5dfbf0532885783ada02d25fdd",
 "assets/assets/legal/AGB.md": "9df6b032284ba62b170467a5207a5c56",
@@ -36,7 +34,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "78d1e5763eba6b23fea714d5171923d8
 "canvaskit/skwasm_heavy.wasm": "b0be7910760d205ea4e011458df6ee01",
 "favicon.png": "703df325734361cfa86db520410765af",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "27f5c75b6504468310d04ea3a3c4e1dd",
+"flutter_bootstrap.js": "24610cfa0e32c814680b21e734d81377",
 "icons/Icon-192.png": "7f093f18533f1994679665f88e08a948",
 "icons/Icon-512.png": "c5870eab9dcf60985738a8b5244361ac",
 "icons/Icon-maskable-192.png": "7f093f18533f1994679665f88e08a948",
