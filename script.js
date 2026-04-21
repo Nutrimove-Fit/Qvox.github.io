@@ -1,5 +1,5 @@
 ﻿/* ═══════════════════════════════════════════════════
-   Nutrimove Fit — Ultra-Premium Interactions
+  Qvox — Ultra-Premium Interactions
    Particles, 3D tilt, parallax, magnetic btns,
    morphing glows, typing fx, stagger reveals
    ═══════════════════════════════════════════════════ */
@@ -642,7 +642,7 @@
           throw new Error('Send failed');
         }
       } catch (err) {
-        formMsg.textContent = 'Senden fehlgeschlagen. Bitte per E-Mail an info.nutrimovefit@gmail.com schreiben.';
+        formMsg.textContent = 'Senden fehlgeschlagen. Bitte per E-Mail an info@qvox.ch schreiben.';
         formMsg.style.color = '#ef4444';
       }
     });
